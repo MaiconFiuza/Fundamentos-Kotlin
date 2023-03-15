@@ -18,6 +18,22 @@ fun stepNumbers() {
     }
 }
 
+fun testeWh() {
+    var numero = 10
+    while (numero >= 0) {
+        println(numero)
+        numero--
+    }
+}
+
+fun testeDoWh() {
+    var numero = 0
+    do {
+        println(numero)
+        numero++
+    } while (numero <= 10)
+}
+
 fun main() {
-   stepNumbers()
+    testeDoWh()
 }
